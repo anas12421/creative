@@ -1,0 +1,177 @@
+footer {
+  // background: #3586ff;
+  background: rgba(89, 86, 232, 0.1);
+  margin-top: 200px;
+  width: 100%;
+  position: relative;
+  padding-bottom: 98px;
+}
+
+footer .wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  background: url(../images/wave3.png);
+  background-size: 1000px 100px;
+}
+
+footer .wave#wave1 {
+  z-index: 100;
+  opacity: 1;
+  bottom: 0;
+  animation: animatewave 4s linear infinite;
+  -webkit-animation: animatewave 4s linear infinite;
+}
+
+@keyframes animatewave {
+  0% {
+    background-position-x: 1000px;
+  }
+
+  100% {
+    background-position-x: 0px;
+  }
+}
+
+footer .wave#wave2 {
+  z-index: 99;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animatewave_2 4s linear infinite;
+  -webkit-animation: animatewave_2 4s linear infinite;
+}
+
+@keyframes animatewave_2 {
+  0% {
+    background-position-x: 0px;
+  }
+
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+footer .wave#wave3 {
+  z-index: 100;
+  opacity: 1;
+  bottom: 15px;
+  animation: animatewave 3s linear infinite;
+  -webkit-animation: animatewave 3s linear infinite;
+}
+
+@keyframes animatewave {
+  0% {
+    background-position-x: 1000px;
+  }
+
+  100% {
+    background-position-x: 0px;
+  }
+}
+
+footer .wave#wave4 {
+  z-index: 99;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animatewave_2 3s linear infinite;
+  -webkit-animation: animatewave_2 3s linear infinite;
+}
+
+@keyframes animatewave_2 {
+  0% {
+    background-position-x: 0px;
+  }
+
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+.footer_one{
+  padding-top: 20px;
+}
+
+.footer_one p {
+  padding-top: 3px;
+  font-size: 16px;
+}
+
+.fone_icon {
+  padding-top: 13px;
+}
+
+.fone_icon i {
+  height: 42px;
+  width: 42px;
+  background-color: white;
+  line-height: 42px;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 7px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.fone_icon i:hover{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.fone_icon i.fb {
+  color: #3b5998;
+}
+
+.fone_icon i.tw {
+  color: #1da1f2;
+}
+
+.fone_icon i.in {
+  color: #c32aa3;
+}
+
+.footer_two {
+  padding-top: 20px;
+}
+
+.footer_two h2 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+
+.footer_two li{
+  padding: 8px 0;
+}
+
+.footer_two a {
+  color: #5d5d5d;
+  font-size: 16px;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.footer_two a:hover{
+  color: #5956E8;
+}
+.footer_two p{
+  color: #5d5d5d;
+  font-size: 16px;
+  text-transform: capitalize;
+}

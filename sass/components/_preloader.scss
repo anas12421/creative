@@ -1,0 +1,88 @@
+.preloader{
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-color: #262626;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+}
+
+
+.cup{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 180px;
+  width: 150px;
+  border: 6px solid #fff;
+  border-top: 2px solid transparent;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  background: url(../images/water.png);
+  background-repeat: repeat-x;
+  animation: animatewater 6s linear infinite;
+  -webkit-animation: animatewater 6s linear infinite;
+  //box-shadow: 0 0 0 6px #fff 0 20px 35px rgba(0,0,0,1);
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+@keyframes animatewater {
+  0%{
+    background-position: 0 100px;
+  }
+  10%{
+    background-position: 0 100px;
+  }
+  40%{
+    background-position: 1000px -70px;
+  }
+  80%{
+    background-position: 2000px -80px;
+  }
+  100%{
+    background-position: 2500px 100px ;
+  }
+  
+}
+
+.cup::after{
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border: 6px solid #262626;
+  border-top: 2px solid transparent;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.cup::before{
+  position: absolute;
+  content: '';
+  height: 80px;
+  width: 50px;
+  border: 6px solid white;
+  right: -62px;
+  top: 30px;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+
+
+

@@ -1,0 +1,101 @@
+.navbar {
+  padding: 0 !important;
+}
+
+.menu {
+  padding: 26px 0 !important;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  z-index: 9999;
+}
+
+.menu_ex{
+  background-color: white;
+  animation: menu_ex 1s;
+  -webkit-animation: menu_ex 1s;
+  padding: 5px 0 !important;
+}
+
+@keyframes menu_ex{
+  0%{
+    top: -150px;
+  }
+  100%{
+    top: 0;
+  }
+}
+
+.menu_ex img{
+  width: 80% !important;
+}
+
+.menu ul li a {
+  color: black !important;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 25px;
+  position: relative;
+}
+
+.menu ul li a:hover {
+  color: #5956E8 !important;
+}
+
+.menu ul li a.active {
+  color: #5956E8 !important;
+}
+
+
+.menu ul li a::after {
+  position: absolute;
+  content: '';
+  height: 5px;
+  width: 5px;
+  background-color: #5956E8;
+  left: 50%;
+  bottom: 0;
+  border-radius:50% ;
+  -webkit-border-radius:50% ;
+  -moz-border-radius:50% ;
+  -ms-border-radius:50% ;
+  -o-border-radius:50% ;
+  opacity: 0;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.menu ul li a:hover::after {
+  opacity: 1;
+}
+.menu ul li a.active::after {
+  opacity: 1;
+}
+
+.menu .menu_btn a{
+  padding: 13px 23px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  background-color: #5956E8;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 1px solid #5956E8;
+  cursor: pointer;
+}
+.menu_btn:hover a{
+  color: #5956E8;
+  background-color: transparent;
+}

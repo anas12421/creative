@@ -1,0 +1,112 @@
+.port_btn{
+  margin-top: 30px;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.port_btn ul{
+  background-color: #5956e80f;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.port_btn ul li button{
+  color: black !important;
+  background-color: transparent !important;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+}
+.port_btn ul li button.active{
+  color: #5956E8 !important;
+  border-top: 2px solid #5956E8;
+}
+
+.port_inner{
+  position: relative;
+  margin-bottom: 28px;
+  overflow: hidden;
+  border-radius:10px ;
+  -webkit-border-radius:10px ;
+  -moz-border-radius:10px ;
+  -ms-border-radius:10px ;
+  -o-border-radius:10px ;
+}
+
+.port_inner img{
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.port_inner:hover img{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.port_ol{
+  position: absolute;
+  // height: 0;
+  width: 90%;
+  background-color: red;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-color: #5956E8;
+  text-align: center;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.port_inner:hover .port_ol{
+  opacity: 1;
+}
+
+.port_ol h2{
+  padding-top: 21px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: white;
+}
+.port_ol p{
+  padding-top: 3px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: white;
+  padding-bottom: 17px;
+}

@@ -1,0 +1,156 @@
+@media (max-width:761.98px) {
+  /* navbar part css start */
+
+  .menu {
+    background-color: white;
+  }
+
+  .menu_ex {
+    padding: 15px 0 !important;
+  }
+
+  .res_btn {
+    border: none;
+  }
+
+  .res_btn:focus {
+    border: none;
+    box-shadow: none;
+  }
+
+  .res_btn i {
+    font-size: 30px;
+  }
+
+  .menu ul {
+    text-align: center;
+  }
+
+  .menu ul li {
+    margin: 10px 0;
+  }
+
+  /* navbar part css end */
+
+  /* banner part css start */
+
+  #banner {
+    padding: 100px 0;
+  }
+
+  /* banner part css end */
+
+  /* service part css start */
+
+  .service_inner {
+    padding: 40px 10px;
+  }
+
+  /* service part css end */
+  /* portfolio part css start */
+
+  .port_btn ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .port_btn ul li button {
+    padding: 18px 5px;
+    font-size: 14px;
+  }
+
+  .port_btn ul li button.active {
+    border-top: 2px solid #5956E8;
+    border-bottom: 2px solid #5956E8;
+  }
+
+  /* portfolio part css end */
+
+
+  .footer_one{
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .footer_two{
+    text-align: center;
+    margin-top: 30px;
+  }
+
+
+
+
+}
+
+@media (min-width:762px) and (max-width:991.98px) {
+  /* navbar part css start */
+
+  .menu {
+    background-color: white;
+  }
+
+  .menu_ex {
+    padding: 15px 0 !important;
+  }
+
+  .res_btn {
+    border: none;
+  }
+
+  .res_btn:focus {
+    border: none;
+    box-shadow: none;
+  }
+
+  .res_btn i {
+    font-size: 30px;
+  }
+
+  .menu ul {
+    text-align: center;
+  }
+
+  .menu ul li {
+    margin: 10px 0;
+  }
+
+  /* navbar part css end */
+
+  /* banner part css start */
+
+  #banner {
+    padding: 100px 0;
+  }
+
+  /* banner part css end */
+
+  /* service part css start */
+
+  .service_inner {
+    padding: 40px 10px;
+  }
+
+  /* service part css end */
+
+
+  /* portfolio part css start */
+
+  .port_btn ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .port_btn ul li button {
+    padding: 18px 10px;
+    font-size: 16px;
+  }
+
+  /* portfolio part css end */
+
+
+
+
+
+}
